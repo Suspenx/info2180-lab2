@@ -1,2 +1,2 @@
-# info2180-lab2
-Lab 2 for the course Info2180
+# INFO2180 Lab2
+This is Lab 2 for Vaughn-Dale Spence
