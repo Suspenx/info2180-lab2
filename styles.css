@@ -1,0 +1,130 @@
+/* Default Style */
+
+body {
+    font-size: 18px;
+    color: #2d3748;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header Syles*/
+ header {
+    padding: 2rem 2rem;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+ }
+
+ h1{
+    font-size: 36px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .profile-image{
+    border-radius: 50% ;
+    width: 150px;
+    height: 150px;
+ }
+
+ /* Blog post styles*/
+ h2{
+    font-size: 32px;
+    color: #48BB78 ;
+ }
+
+ .blog{
+    margin: bottom 30px; ;
+ }
+ 
+ .post-info{
+    color: #718096;
+ }
+
+ /* Sidebar styles*/
+ 
+
+
+
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.social-media-links, .archive-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media-links a, .archive-links a {
+    color: #4299E1; 
+    text-decoration: none;
+}
+
+.float-left {
+    float: left;
+    margin: 0 20px 10px 0; 
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 10px 20px; 
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* Footer styles */
+footer {
+    grid-column: span 2;
+    padding: 2rem 10rem;
+    background-color: #2C5282;
+    color: #FFFFFF;
+}
+
+main {
+    grid-column: span 1/2;
+    padding: 4rem 6rem;
+}
+
+.sidebar {
+    padding: 4rem 4rem 0 0;
+}
+
+.sidebar-title {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: .5rem;
+}
+
+.about-container {
+    padding: 1rem;
+    background-color: #E2E8F0;
+    color: black;
+}
+
+.grid {
+    display: grid;
+}
+
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
